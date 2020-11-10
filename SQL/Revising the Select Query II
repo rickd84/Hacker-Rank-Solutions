@@ -1,0 +1,33 @@
+https://www.hackerrank.com/challenges/revising-the-select-query-2/problem
+Revising the Select Query II
+
+Query the NAME field for all American cities in the CITY table with populations larger than 120000. 
+The CountryCode for America is USA.
+
+The CITY table is described as follows: 
+
+
+
+My Solution:
+SELECT NAME FROM CITY WHERE COUNTRYCODE = 'USA' AND POPULATION > 120000; 
+
+Your Output (stdout)
+
+    Scottsdale
+
+    Corona
+
+    Concord
+
+    Cedar Rapids
+
+Expected Output
+
+
+    Scottsdale
+
+    Corona
+
+    Concord
+
+    Cedar Rapids
